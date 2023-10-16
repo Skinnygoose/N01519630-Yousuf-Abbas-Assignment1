@@ -1,0 +1,6 @@
+@using N01519630_Yousuf_Abbas_Assignment1.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}
